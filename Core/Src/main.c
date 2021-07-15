@@ -93,8 +93,8 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-		HAL_GPIO_TogglePin (GPIOC, GPIO_PIN_13);
-    HAL_Delay (1000);   /* Insert delay 100 ms */
+	HAL_GPIO_TogglePin (GPIOC, GPIO_PIN_13);
+    	HAL_Delay (1000);   /* Insert delay 100 ms */
   }
   /* USER CODE END 3 */
 }
